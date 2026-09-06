@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Over Panti - YouTube</title>
+  
+  <meta property="og:title" content="Over Panti - YouTube Channel">
+  <meta property="og:description" content="Click here to subscribe to Over Panti!">
+  <meta property="og:image" content="https://www.youtube.com/img/desktop/yt_120x120.png">
+  <meta property="og:url" content="https://youtubeover-panti.github.io/">
+  <meta property="og:type" content="website">
+
+  <style>
+    body {
+      background-color: #0f0f0f;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      padding: 20px;
+    }
+    .logo {
+      width: 90px;
+      height: 90px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .note {
+      font-size: 14px;
+      color: #aaaaaa;
+      margin-top: 15px;
+    }
+  </style>
+
+  <script>
+    // Page khulte hi direct YouTube App ka intent trigger ho jayega
+    window.onload = function() {
+      var intentUrl = "intent://www.youtube.com/@Over_panti?sub_confirmation=1#Intent;package=com.google.android.youtube;scheme=https;end;";
+      window.location.href = intentUrl;
+    };
+  </script>
+</head>
+<body>
+
+  <img src="https://www.youtube.com/img/desktop/yt_120x120.png" alt="YouTube Logo" class="logo">
+
+  <h2>Over Panti YouTube Channel</h2>
+  <p class="note">Opening YouTube App...</p>
+
+</body>
+</html>
